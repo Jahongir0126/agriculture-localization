@@ -3,21 +3,29 @@ header {
   position: relative;
 }
 .nav-item:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid rgb(19, 19, 19);
 }
 .logo-img {
   width: 180px;
   height: 30px;
 }
+.navbar_img {
+  width: 160px;
+  height: 160px;
+}
 .contact_btn {
   color: black !important;
   background-color: rgb(0, 0, 0, 0.04) !important;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.133) !important;
+  }
 }
 .my_dropdown {
   & > div {
+    z-index: 1;
     position: fixed;
     left: 0;
-    top:51px;
+    top: 51px;
     display: none;
     width: 100vw;
     padding: 30px;
@@ -28,15 +36,51 @@ header {
       max-width: 1200px;
       margin: auto;
       display: flex;
-      &>li{
-        max-width: 300px;
+      justify-content: space-between;
+      & > li {
+        max-width: 368px;
+        margin-bottom: 15px;
+        border-right: 2px solid rgba(180, 180, 180, 0.442);
+        & > div {
+          max-width: 180px;
+          max-height: 192px;
+          & > h5 {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          & > span {
+            font-size: 12px;
+            text-wrap: wrap;
+          }
+          .navbar_p {
+            font-size: 14px;
+            padding: 0 !important;
+            margin: 4px 0;
+          }
+        }
       }
     }
   }
-
   &:hover {
-    & >div {
-      display:block;
+    & > div {
+      display: block;
+    }
+  }
+}
+
+.support_dropdown {
+  & > ul {
+    right: -110%;
+    text-align: center;
+    border-radius: 0;
+    & > li > a {
+      padding: 14px 30px !important;
+      font-size: 12px;
+    }
+  }
+  &:hover {
+    & > ul {
+      display: block;
     }
   }
 }
