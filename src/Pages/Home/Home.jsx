@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Header />
       
-      <main className="h-75 container px-lg-5">
+      <main className="px-xxl-5">
         Content
       </main>
 
