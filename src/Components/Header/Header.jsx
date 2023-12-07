@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 import "./Header.scss";
 
 import logo from "/img/logo.png";
@@ -8,6 +10,12 @@ import drone2 from "/img/navbar_dron_photo_2.png";
 import mobile_phone from "/img/navbar_mobile_phone.png";
 
 export default function Header() {
+  const { t, i18n } = useTranslation();
+
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <>
       <header className="bg-white">
@@ -32,7 +40,7 @@ export default function Header() {
                 <li className="nav-item fw-medium ms-3 my_dropdown">
                   <Link to={""}
                     className="nav-link link-dark link-opacity-75-hover"
-                  >Products
+                  >{t("product")}
                   </Link>
                   <div>
                     <ul className="row">
@@ -73,40 +81,40 @@ export default function Header() {
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://ag.dji.com/newsroom?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >Newsroom
+                  >{t("newsroom")}
                   </Link>
                 </li>
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://ag.dji.com/case-studies?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >Insights
+                  >{t("inform")}
                   </Link>
                 </li>
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://www.uastc.com/us/?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >DJI Academy
+                  >{t("academy")}
                   </Link>
                 </li>
                 <li className="nav-item fw-medium ms-3 dropdown support_dropdown">
                   <Link className="nav-link link-dark link-opacity-75-hover"
-                  >Support
+                  >{t("support")}
                   </Link>
                   <ul className="dropdown-menu p-0">
                     <li>
-                      <Link to={"https://www.dji.com/support?site=ag&from=nav"} target="_blank" class="nav-link dropdown-item">After-Sales Service Policies</Link>
+                      <Link to={"https://www.dji.com/support?site=ag&from=nav"} target="_blank" className="nav-link dropdown-item">After-Sales Service Policies</Link>
                     </li>
                     <li>
-                      <Link to={"https://www.dji.com/where-to-buy/agriculture-dealers?site=ag&from=nav"} target="_blank" class="nav-link dropdown-item">Find Dealers Nearby</Link>
+                      <Link to={"https://www.dji.com/where-to-buy/agriculture-dealers?site=ag&from=nav"} target="_blank" className="nav-link dropdown-item">Find Dealers Nearby</Link>
                     </li>
                     <li>
-                      <Link to={"https://www.dji.com/flysafe?site=ag&from=nav"} target="_blank" class="nav-link dropdown-item">Fly Safe</Link>
+                      <Link to={"https://www.dji.com/flysafe?site=ag&from=nav"} target="_blank" className="nav-link dropdown-item">Fly Safe</Link>
                     </li>
                     <li>
-                      <Link to={"https://www.dji.com/downloads?site=ag&from=nav"} target="_blank" class="nav-link dropdown-item">Download Center </Link>
+                      <Link to={"https://www.dji.com/downloads?site=ag&from=nav"} target="_blank" className="nav-link dropdown-item">Download Center </Link>
                     </li>
                     <li>
-                      <Link to={"https://www.dji.com/service/repair/centers?site=ag&from=nav"} target="_blank" class="nav-link dropdown-item">Service Center </Link>
+                      <Link to={"https://www.dji.com/service/repair/centers?site=ag&from=nav"} target="_blank" className="nav-link dropdown-item">Service Center </Link>
                     </li>
                   </ul>
 
@@ -116,7 +124,7 @@ export default function Header() {
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://ag.dji.com/about-us?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >About Us
+                  >{t("about")}
                   </Link>
                 </li>
 
@@ -129,6 +137,16 @@ export default function Header() {
               >Contact Us
               </a>
 
+            </div>
+            <div className="lang ms-3">
+              <select className="form-select"  onChange={(e) => changeLanguage(e.target.value)}>
+                <option value="en">EN
+                </option>
+                <option value="ru">RU
+                </option>
+                <option value="uz">UZ
+                </option>
+              </select>
             </div>
           </nav>
         </div>
