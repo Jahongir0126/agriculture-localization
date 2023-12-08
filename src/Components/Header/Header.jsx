@@ -12,14 +12,13 @@ import mobile_phone from "/img/navbar_mobile_phone.png";
 export default function Header() {
   const { t, i18n } = useTranslation();
 
-
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
   return (
     <>
       <header className="bg-white">
-        <div className="container px-xxl-5">
+        <div className="container px-xxl-5 ">
           <nav className="navbar navbar-expand-lg ">
             <Link to="/" className="navbar-brand ">
               <img src={logo} alt="logo" className="logo-img" />
@@ -40,7 +39,7 @@ export default function Header() {
                 <li className="nav-item fw-medium ms-3 my_dropdown">
                   <Link to={""}
                     className="nav-link link-dark link-opacity-75-hover"
-                  >{t("product")}
+                  >{t("navbar.product")}
                   </Link>
                   <div>
                     <ul className="row">
@@ -81,24 +80,24 @@ export default function Header() {
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://ag.dji.com/newsroom?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >{t("newsroom")}
+                  >{t("navbar.newsroom")}
                   </Link>
                 </li>
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://ag.dji.com/case-studies?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >{t("inform")}
+                  >{t("navbar.inform")}
                   </Link>
                 </li>
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://www.uastc.com/us/?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >{t("academy")}
+                  >{t("navbar.academy")}
                   </Link>
                 </li>
                 <li className="nav-item fw-medium ms-3 dropdown support_dropdown">
                   <Link className="nav-link link-dark link-opacity-75-hover"
-                  >{t("support")}
+                  >{t("navbar.support")}
                   </Link>
                   <ul className="dropdown-menu p-0">
                     <li>
@@ -124,7 +123,7 @@ export default function Header() {
                 <li className="nav-item fw-medium ms-3">
                   <Link to={"https://ag.dji.com/about-us?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
-                  >{t("about")}
+                  >{t("navbar.about")}
                   </Link>
                 </li>
 
@@ -134,12 +133,12 @@ export default function Header() {
                 target="_blank"
                 className="btn btn-secondary border-0  rounded-1 contact_btn "
 
-              >Contact Us
+              >{t("navbar.contact")}
               </a>
 
             </div>
             <div className="lang ms-3">
-              <select className="form-select"  onChange={(e) => changeLanguage(e.target.value)}>
+              <select className="form-select" onChange={(e) => changeLanguage(e.target.value)}>
                 <option value="en">EN
                 </option>
                 <option value="ru">RU
