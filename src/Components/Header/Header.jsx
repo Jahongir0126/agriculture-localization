@@ -37,7 +37,7 @@ export default function Header() {
             <div className="collapse navbar-collapse " id="navbarNavDropdown">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 hamburger_menu">
                 <li className="nav-item fw-medium ms-3 my_dropdown">
-                  <Link to={""}
+                  <Link
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.product")}
                   </Link>
