@@ -4,10 +4,10 @@ import { useTranslation } from "react-i18next";
 
 import "./Header.scss";
 
-import logo from "/img/logo.png";
-import drone1 from "/img/navbar_dron_photo_1.png";
-import drone2 from "/img/navbar_dron_photo_2.png";
-import mobile_phone from "/img/navbar_mobile_phone.png";
+import logo from "/img/logo.webp";
+import drone1 from "/img/navbar_dron_photo_1.webp";
+import drone2 from "/img/navbar_dron_photo_2.webp";
+import mobile_phone from "/img/navbar_mobile_phone.webp";
 
 export default function Header() {
   const { t, i18n } = useTranslation();

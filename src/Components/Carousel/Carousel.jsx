@@ -1,12 +1,9 @@
 import React from 'react'
 
-import carousel_img_1 from "/img/carusel_img_1c.png"
-import carousel_img_2 from "/img/carusel_img_2c.png"
-import carousel_img_3 from "/img/carusel_img_3c.png"
+import carousel_img_1 from "/img/carusel_img_1c.webp"
+import carousel_img_2 from "/img/carusel_img_2c.webp"
+import carousel_img_3 from "/img/carusel_img_3c.webp"
 
-import carousel_img_1m from "/img/carusel_img_1mobile.png"
-import carousel_img_2m from "/img/carusel_img_2mobile.png"
-import carousel_img_3m from "/img/carusel_img_3mobile.png"
 import "./Carousel.scss"
 
 export default function Carousel() {

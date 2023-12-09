@@ -1,8 +1,8 @@
 import React from 'react'
 
-import card_img1 from '/img/card_img1.png'
-import card_img2 from '/img/card_img2.png'
-import card_img3 from '/img/card_img3.png'
+import card_img1 from '/img/card_img1.webp'
+import card_img2 from '/img/card_img2.webp'
+import card_img3 from '/img/card_img3.webp'
 
 export default function Card_Groups() {
     return (

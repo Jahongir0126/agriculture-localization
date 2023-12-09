@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import "./Card.scss"
-import card_img from '/img/big_card_img1.png'
+import card_img from '/img/big_card_img1.webp'
 
 export default function Card() {
     return (
