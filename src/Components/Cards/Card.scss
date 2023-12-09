@@ -1,0 +1,9 @@
+.card_bg{
+    background-color: #F7F9FA;
+}
+
+@media screen and (max-width: 990px) {
+  .big_card_title {
+    display: none;
+  }
+}
