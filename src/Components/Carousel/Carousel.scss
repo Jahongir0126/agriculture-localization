@@ -47,21 +47,25 @@
     }
     & > .carousel-indicators {
       margin: 0;
-      & > button {
-        width: 2%;
-      }
     }
     &_inner {
       .carousel_item1 {
-        background: url("../../../public/img/carusel_img_1mobile.png") no-repeat center;
+        background: url("../../../public/img/carusel_img_1mobile.png") no-repeat 
+          center;
+        background-size: cover;
       }
       .carousel_item2 {
-        background: url("../../../public/img/carusel_img_2mobile.png") no-repeat center;
+        background: url("../../../public/img/carusel_img_2mobile.png") no-repeat 
+          center;
+        background-size: cover;
       }
       .carousel_item3 {
-        background: url("../../../public/img/carusel_img_3mobile.png") no-repeat center;
+        background: url("../../../public/img/carusel_img_3mobile.png") no-repeat 
+          center;
+        background-size: cover;
       }
       &_item {
+        width: 100vw !important;
         height: 87vh;
         & > img {
           display: none !important;
@@ -69,18 +73,20 @@
 
         & > div {
           // position:  sticky;
-          max-width: 300px;
+          max-width: 400px;
           margin: auto;
-          top:0;
+          top: 7vh;
+          left: 15vw;
           align-items: center;
           & > h5 {
-            font-size: 29px;
+            font-size: 40px;
           }
           & > p {
-            font-size: 16px;
+            font-size: 20px;
           }
           & > a {
-            padding: 10px 50px;
+            margin-top: 0;
+            padding: 10px 60px;
           }
         }
       }
