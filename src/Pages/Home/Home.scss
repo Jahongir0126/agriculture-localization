@@ -2,3 +2,10 @@ main{
     min-height: 200vh;
     background: rgb(108, 140, 126);
 }
+
+@media screen and (max-width: 991px) {
+    main{
+        margin-top: 60px;
+    }
+}
+

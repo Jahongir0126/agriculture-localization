@@ -36,7 +36,7 @@ export default function Header() {
             </button>
             <div className="collapse navbar-collapse " id="navbarNavDropdown">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 hamburger_menu">
-                <li className="nav-item fw-medium ms-3 my_dropdown">
+                <li className="nav-item fw-medium ms-3  my_dropdown ">
                   <Link
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.product")}
@@ -77,25 +77,25 @@ export default function Header() {
                   </div>
                 </li>
 
-                <li className="nav-item fw-medium ms-3">
+                <li className="nav-item fw-medium ms-3 ">
                   <Link to={"https://ag.dji.com/newsroom?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.newsroom")}
                   </Link>
                 </li>
-                <li className="nav-item fw-medium ms-3">
+                <li className="nav-item fw-medium ms-3 ">
                   <Link to={"https://ag.dji.com/case-studies?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.inform")}
                   </Link>
                 </li>
-                <li className="nav-item fw-medium ms-3">
+                <li className="nav-item fw-medium ms-3 ">
                   <Link to={"https://www.uastc.com/us/?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.academy")}
                   </Link>
                 </li>
-                <li className="nav-item fw-medium ms-3 dropdown support_dropdown">
+                <li className="nav-item fw-medium ms-3  dropdown support_dropdown">
                   <Link className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.support")}
                   </Link>
@@ -120,7 +120,7 @@ export default function Header() {
 
 
                 </li>
-                <li className="nav-item fw-medium ms-3">
+                <li className="nav-item fw-medium ms-3 ">
                   <Link to={"https://ag.dji.com/about-us?site=ag&from=nav"} target="_blank"
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.about")}

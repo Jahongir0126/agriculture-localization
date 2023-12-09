@@ -3,6 +3,10 @@ import React from 'react'
 import carousel_img_1 from "/img/carusel_img_1c.png"
 import carousel_img_2 from "/img/carusel_img_2c.png"
 import carousel_img_3 from "/img/carusel_img_3c.png"
+
+import carousel_img_1m from "/img/carusel_img_1mobile.png"
+import carousel_img_2m from "/img/carusel_img_2mobile.png"
+import carousel_img_3m from "/img/carusel_img_3mobile.png"
 import "./Carousel.scss"
 
 export default function Carousel() {
@@ -15,25 +19,33 @@ export default function Carousel() {
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div className="carousel-inner home_carousel_inner">
-          <div className="carousel-item home_carousel_inner_item active">
-            <img src={carousel_img_1} className="d-block w-100 home_carousel_inner_item_img " alt="imagination" />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+          <div className="carousel-item home_carousel_inner_item active carousel_item1">
+            <img 
+            src={carousel_img_1} 
+            className="d-block w-100 home_carousel_inner_item_img carousel_img1" alt="imagination" />
+            <div className="carousel-caption">
+              <h5>Agras T40</h5>
+              <p>One for all</p>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">Learn More</a>
             </div>
           </div>
-          <div className="carousel-item home_carousel_inner_item">
-            <img src={carousel_img_2} className="d-block w-100 home_carousel_inner_item_img" alt="img" />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+          <div className="carousel-item home_carousel_inner_item carousel_item2">
+            <img 
+            src={carousel_img_2}
+             className="d-block w-100 home_carousel_inner_item_img" alt="img" />
+            <div className="carousel-caption">
+              <h5>DJI Mavic 3M</h5>
+              <p>See More, Work Smarter</p>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">Learn More</a>
             </div>
           </div>
-          <div className="carousel-item home_carousel_inner_item">
-            <img src={carousel_img_3} className="d-block w-100 home_carousel_inner_item_img" alt="img" />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+          <div className="carousel-item home_carousel_inner_item carousel_item3">
+            <img 
+            src={carousel_img_3}
+             className="d-block w-100 home_carousel_inner_item_img" alt="img" />
+            <div className="carousel-caption">
+              <h5>DJi Smartfarm Web</h5>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">Learn More</a>
             </div>
           </div>
         </div>
