@@ -6,6 +6,25 @@
     "academy": "DJI Akademiyasi",
     "support": "Yordam",
     "about": "Biz Haqimizda",
-    "contact": "Bog'lanish"
+    "contact": "Bog'lanish",
+    "menu_title1":"Ekinlarni himoya qilish",
+    "menu_text1":"Samarali va avtonom ishlash",
+    "menu_title2":"Missiyani rejalashtirish",
+    "menu_text2":"Har bir tafsilotni aniqlang",
+    "menu_title3":"Aqlli ferma",
+    "menu_text3":"Ekinlarni himoya qilish bo'yicha samarali xizmatlar ko'rsatish"
+  },
+  "carousel":{
+    "better":"Yaxshiroq o'sish, yaxshiroq hayot",
+    "carousel1_text":"Hammasi uchun bitta",
+    "carousel2_text":"Koʻproq koʻring, aqlliroq ishlang",
+    "btn":"Batafsil malumot"
+  },
+  "card": {
+    "card1_title": "Dron va sun'iy intellekt yordamida makkajo'xori, kungaboqar va qand lavlagi ekinlarini yuqori aniqlikda hisoblash",
+    "card1_text": "O'simliklarni hisoblash ekinlar hosildorligini boshqarishda muhim vazifadir. Bu paxtakorlarga o'simliklarning populyatsiyasi, zichligi, unib chiqish tezligi va o'simliklarning sog'lig'ini baholashga imkon beradi va natijada hosilga ta'sir qiladigan o'z vaqtida qaror qabul qiladi.",
+    "card2_title":"Yangi DJI Agriculture Drone Insight hisoboti fermerlar uchun ko'proq qabul, ilg'or dehqonchilik texnikasi va ilg'or tajribalarni o'rganishni ochib beradi.",
+    "card3_title":"66,7 million gektar maydonni qishloq xo'jaligida uchuvchisiz purkash sayyora uchun nimani anglatadi?",
+    "card4_title":"Qishloq xo‘jaligi dronlari sanoatining insight hisoboti (2021)"
   }
 }

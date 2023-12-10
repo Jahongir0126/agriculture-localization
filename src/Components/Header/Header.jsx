@@ -42,12 +42,12 @@ export default function Header() {
                   >{t("navbar.product")}
                   </Link>
                   <div>
-                    <ul className="row">
+                    <ul className="row p-0">
                       <li className="dropdown-item  d-flex justify-content-between">
                         <img src={drone1} alt="drone photo" className="navbar_img" />
                         <div>
-                          <h5>Crop Protection</h5>
-                          <span className="">Efficient & Autonomous Operation</span>
+                          <h5>{t("navbar.menu_title1")}</h5>
+                          <span className="">{t("navbar.menu_text1")}</span>
                           <Link to={"https://www.dji.com/t20p?site=ag&from=nav"} target="_blank" className="nav-link navbar_p mt-3">AGRAS T20P</Link>
                           <Link to={"https://www.dji.com/t40?site=ag&from=nav"} target="_blank" className="nav-link navbar_p">AGRAS T40</Link>
                           <Link to={"https://www.dji.com/t30?site=ag&from=nav"} target="_blank" className="nav-link navbar_p">AGRAS T30</Link>
@@ -57,18 +57,18 @@ export default function Header() {
                       <li className="dropdown-item  d-flex">
                         <img src={drone2} alt="drone photo" className="navbar_img" />
                         <div>
-                          <h5>Mission Planning</h5>
-                          <span>Detect Every Detail</span>
+                          <h5>{t("navbar.menu_title2")}</h5>
+                          <span>{t("navbar.menu_text2")}</span>
                           <Link to={"https://ag.dji.com/mavic-3-m?site=ag&from=nav"} target="_blank" className="nav-link navbar_p mt-3">Mavic 3M</Link>
                           <Link to={"https://www.dji.com/dji-terra?site=ag&from=nav"} target="_blank" className="nav-link navbar_p">DJI Terra</Link>
                         </div>
                       </li>
-                      <li className="dropdown-item  d-flex">
+                      <li className="dropdown-item  d-flex border-0">
                         <img src={mobile_phone} alt="drone photo" className="navbar_img" />
 
                         <div>
-                          <h5>Smart Farm</h5>
-                          <span>Providing efficient crop protection services</span>
+                          <h5>{t("navbar.menu_title3")}</h5>
+                          <span>{t("navbar.menu_text3")}</span>
                           <Link to={"https://ag.dji.com/smartfarm-web?site=ag&from=nav"} target="_blank" className="nav-link navbar_p mt-3">DJI SmartFarm Web</Link>
                           <Link to={"https://www.dji.com/ag-platform?site=ag&from=nav"} target="_blank" className="nav-link navbar_p">DJI SmartFarm App</Link>
                         </div>
@@ -138,7 +138,9 @@ export default function Header() {
 
             </div>
             <div className="lang ms-3">
-              <select className="form-select" onChange={(e) => changeLanguage(e.target.value)}>
+              <select className="form-select text-lowercase" onChange={(e) => changeLanguage(e.target.value)}>
+                <option disabled selected  className=" bg-secondary bg-opacity-50">{i18n.language}
+                </option>
                 <option value="en">EN
                 </option>
                 <option value="ru">RU

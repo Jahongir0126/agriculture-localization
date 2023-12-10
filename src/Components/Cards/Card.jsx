@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "./Card.scss"
 import card_img from '/img/big_card_img1.webp'
 
-export default function Card() {
+export default function Card(props) {
     return (
         <>
             <div className="card mb-3 big_card rounded-0 border-0">
@@ -14,8 +14,10 @@ export default function Card() {
                     </div>
                     <div className="col-md-6 d-flex align-items-center card_bg" >
                         <div className="card-body px-5">
-                            <h5 className="card-title mb-4 fs-4">High-precision Plant Stand Count for Corn, Sunflower and Sugar Beet by a Drone and AI</h5>
-                            <p className="card-text text-secondary pe-4 big_card_title">Plant stand count is an essential task in yield management. It allows growers to estimate the plant population, density, germination rate, and plant health and make timely decisions that finally affect the yield.</p>
+                            <Link className='page-link' to={props.link}>
+                                <h5 className="card-title mb-4 fs-4">{props.title}</h5>
+                            </Link>
+                            <p className="card-text text-secondary pe-4 big_card_title">{props.text}</p>
                         </div>
                     </div>
                 </div>

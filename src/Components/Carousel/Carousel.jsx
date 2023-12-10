@@ -5,8 +5,10 @@ import carousel_img_2 from "/img/carusel_img_2c.webp"
 import carousel_img_3 from "/img/carusel_img_3c.webp"
 
 import "./Carousel.scss"
+import { useTranslation } from 'react-i18next'
 
 export default function Carousel() {
+  const { t, i18n } = useTranslation();
   return (
     <>
       <div id="carouselExampleCaptions" className="carousel slide home_carousel mb-5" data-bs-ride="carousel">
@@ -22,8 +24,8 @@ export default function Carousel() {
             className="d-block w-100 home_carousel_inner_item_img carousel_img1" alt="imagination" />
             <div className="carousel-caption">
               <h5>Agras T40</h5>
-              <p>One for all</p>
-              <a href="#" className="btn text-white btn-outline-light rounded-5">Learn More</a>
+              <p>{t("carousel.carousel1_text")}</p>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn")}</a>
             </div>
           </div>
           <div className="carousel-item home_carousel_inner_item carousel_item2">
@@ -32,8 +34,8 @@ export default function Carousel() {
              className="d-block w-100 home_carousel_inner_item_img" alt="img" />
             <div className="carousel-caption">
               <h5>DJI Mavic 3M</h5>
-              <p>See More, Work Smarter</p>
-              <a href="#" className="btn text-white btn-outline-light rounded-5">Learn More</a>
+              <p>{t("carousel.carousel2_text")}</p>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn")}</a>
             </div>
           </div>
           <div className="carousel-item home_carousel_inner_item carousel_item3">
@@ -42,7 +44,7 @@ export default function Carousel() {
              className="d-block w-100 home_carousel_inner_item_img" alt="img" />
             <div className="carousel-caption">
               <h5>DJi Smartfarm Web</h5>
-              <a href="#" className="btn text-white btn-outline-light rounded-5">Learn More</a>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn")}</a>
             </div>
           </div>
         </div>

@@ -6,6 +6,25 @@
     "academy": "DJI Academy",
     "support": "Support",
     "about": "About Us",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "menu_title1": "Crop Protection",
+    "menu_text1": "Efficient & Autonomous Operation",
+    "menu_title2": "Mission Planning",
+    "menu_text2": "Detect Every Detail",
+    "menu_title3": "Smart Farm",
+    "menu_text3": "Providing efficient crop protection services"
+  },
+  "carousel": {
+    "better": "Better Growth, Better Life",
+    "carousel1_text": "One for all",
+    "carousel2_text": "See More, Work Smarter",
+    "btn": "Learn More"
+  },
+  "card": {
+    "card1_title": "High-precision Plant Stand Count for Corn, Sunflower and Sugar Beet by a Drone and AI",
+    "card1_text": "Plant stand count is an essential task in yield management. It allows growers to estimate the plant population, density, germination rate, and plant health and make timely decisions that finally affect the yield.",
+    "card2_title": "New DJI Agriculture Drone Insight Report Reveals Greater Acceptance, Advanced Farming Techniques and Exploration of Best Practices for Farmers",
+    "card3_title": "What does agricultural drone spraying of 66.7 million hectares mean to the planet?",
+    "card4_title": "Agricultural Drone Industry Insight Report (2021)"
   }
 }
