@@ -7,24 +7,32 @@
     "support": "Yordam",
     "about": "Biz Haqimizda",
     "contact": "Bog'lanish",
-    "menu_title1":"Ekinlarni himoya qilish",
-    "menu_text1":"Samarali va avtonom ishlash",
-    "menu_title2":"Missiyani rejalashtirish",
-    "menu_text2":"Har bir tafsilotni aniqlang",
-    "menu_title3":"Aqlli ferma",
-    "menu_text3":"Ekinlarni himoya qilish bo'yicha samarali xizmatlar ko'rsatish"
+    "menu_title1": "Ekinlarni himoya qilish",
+    "menu_text1": "Samarali va avtonom ishlash",
+    "menu_title2": "Missiyani rejalashtirish",
+    "menu_text2": "Har bir tafsilotni aniqlang",
+    "menu_title3": "Aqlli ferma",
+    "menu_text3": "Ekinlarni himoya qilish bo'yicha samarali xizmatlar ko'rsatish"
   },
-  "carousel":{
-    "better":"Yaxshiroq o'sish, yaxshiroq hayot",
-    "carousel1_text":"Hammasi uchun bitta",
-    "carousel2_text":"Koʻproq koʻring, aqlliroq ishlang",
-    "btn":"Batafsil malumot"
+  "home": {
+    "better": "Yaxshiroq o'sish, yaxshiroq hayot",
+    "solution": "Yechimlar",
+    "solution_text": "DJI Agriculture nafaqat qishloq xo‘jaligi mutaxassislarini kuchli jihozlar bilan ta’minlabgina qolmay, balki fermerlar va fermerlardan tortib qishloq xo‘jaligi kooperatsiyasi va xizmat ko‘rsatish agentliklarigacha bo‘lgan keng doiradagi mijozlar uchun vaqtni tejaydigan va ish oqimini oshiradigan aqlli yechimlarni ham taqdim etadi."
+  },
+  "carousel": {
+    "carousel1_text": "Hammasi uchun bitta",
+    "carousel2_text": "Koʻproq koʻring, aqlliroq ishlang",
+    "btn": "Batafsil malumot"
   },
   "card": {
     "card1_title": "Dron va sun'iy intellekt yordamida makkajo'xori, kungaboqar va qand lavlagi ekinlarini yuqori aniqlikda hisoblash",
     "card1_text": "O'simliklarni hisoblash ekinlar hosildorligini boshqarishda muhim vazifadir. Bu paxtakorlarga o'simliklarning populyatsiyasi, zichligi, unib chiqish tezligi va o'simliklarning sog'lig'ini baholashga imkon beradi va natijada hosilga ta'sir qiladigan o'z vaqtida qaror qabul qiladi.",
-    "card2_title":"Yangi DJI Agriculture Drone Insight hisoboti fermerlar uchun ko'proq qabul, ilg'or dehqonchilik texnikasi va ilg'or tajribalarni o'rganishni ochib beradi.",
-    "card3_title":"66,7 million gektar maydonni qishloq xo'jaligida uchuvchisiz purkash sayyora uchun nimani anglatadi?",
-    "card4_title":"Qishloq xo‘jaligi dronlari sanoatining insight hisoboti (2021)"
+    "card2_title": "Yangi DJI Agriculture Drone Insight hisoboti fermerlar uchun ko'proq qabul, ilg'or dehqonchilik texnikasi va ilg'or tajribalarni o'rganishni ochib beradi.",
+    "card3_title": "66,7 million gektar maydonni qishloq xo'jaligida uchuvchisiz purkash sayyora uchun nimani anglatadi?",
+    "card4_title": "Qishloq xo‘jaligi dronlari sanoatining insight hisoboti (2021)",
+    "card5_title": "Don ekinlari",
+    "card5_text": "Bizning yechimlarimiz guruch, bug‘doy va makkajo‘xori kabi don ekinlari uchun raqamli, informatsion, aqlli va aniq dala boshqaruvini ta’minlaydi. Bu qishloq xoʻjaligi operatorlariga yanada qulay va samarali variantlarni taqdim etadi, foydalanish xarajatlarini kamaytiradi, hosil sifatini yaxshilaydi va hosildorlikni oshiradi.",
+    "card6_title": "Tijorat ekinlari",
+    "card6_text": "Shuningdek, biz paxta, sitrus daraxtlari, olma daraxtlari va choy o‘simliklari kabi tijorat ekinlari uchun raqamli, informatsion, aqlli va aniq boshqaruv yechimlarini taqdim etamiz. G'alla ekinlarida bo'lgani kabi, agoperatorlar bu variantlarni qulayroq, arzonroq va ekin sifati va hosildorlik darajasi uchun foydali deb topadilar."
   }
 }

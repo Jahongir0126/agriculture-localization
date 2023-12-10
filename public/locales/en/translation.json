@@ -14,8 +14,13 @@
     "menu_title3": "Smart Farm",
     "menu_text3": "Providing efficient crop protection services"
   },
-  "carousel": {
+  "home":{
     "better": "Better Growth, Better Life",
+    "solution": "Solutions",
+    "solution_text": "DJI Agriculture not only empowers agriculture professionals with powerful equipment but also provides intelligent solutions that save time and increase workflow, benefiting a wide range of customers from farmers and growers to agricultural cooperation and service agencies."
+
+  },
+  "carousel": {
     "carousel1_text": "One for all",
     "carousel2_text": "See More, Work Smarter",
     "btn": "Learn More"
@@ -25,6 +30,10 @@
     "card1_text": "Plant stand count is an essential task in yield management. It allows growers to estimate the plant population, density, germination rate, and plant health and make timely decisions that finally affect the yield.",
     "card2_title": "New DJI Agriculture Drone Insight Report Reveals Greater Acceptance, Advanced Farming Techniques and Exploration of Best Practices for Farmers",
     "card3_title": "What does agricultural drone spraying of 66.7 million hectares mean to the planet?",
-    "card4_title": "Agricultural Drone Industry Insight Report (2021)"
+    "card4_title": "Agricultural Drone Industry Insight Report (2021)",
+    "card5_title": "Grain Crops",
+    "card5_text": "Our solutions provide digital, informative, intelligent, and precise field management for grain crops such as rice, wheat, and corn. This empowers agricultural operators with more convenient and efficient options, reduces operation costs, improves crop quality, and increases yield rate.",
+    "card6_title": "Commercial Crops",
+    "card6_text": "We also provide digital, informative, intelligent, and precise management solutions for commercial crops such as cotton, citrus trees, apple trees, and tea plants. As with grain crops, agoperators will find these options more convenient, inexpensive, and beneficial to crop quality and yield rate."
   }
 }

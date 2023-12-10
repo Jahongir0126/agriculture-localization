@@ -1,15 +1,22 @@
-main{
-    min-height: 200vh;
-    .green_rectangle{
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 70px;
-        width: 48px;
-        height: 2px;
-        background-color: #41A337
-    }
+main {
+  min-height: 200vh;
+  .green_rectangle {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    width: 48px;
+    height: 1.5px;
+    background-color: #41a337;
+  }
+  .solution_text {
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    color: #3B3E40;
+  }
 }
 
 @media screen and (max-width: 990px) {
 }
-

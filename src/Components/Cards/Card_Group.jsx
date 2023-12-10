@@ -11,7 +11,7 @@ export default function Card_Groups() {
 
     return (
         <>
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div className="col">
                     <div className="card h-100 rounded-0 border-0">
                         <img src={card_img1} className="card-img-top rounded-0" alt="..." />
