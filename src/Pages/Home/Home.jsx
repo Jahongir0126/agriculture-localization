@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      {/* <Carousel /> */}
+      <Carousel />
       <main className="container pt-5 px-xxl-5">
         <div>
           <h2 className="text-center mb-4 fs-1">{t("home.better")}</h2>
