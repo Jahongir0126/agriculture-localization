@@ -23,7 +23,7 @@ export default function Home() {
         <div>
           <h2 className="text-center mb-4 fs-1">{t("home.better")}</h2>
         <span className="green_rectangle"></span>
-        <Card title={t("card.card1_title")} link={'/'} text={t("card.card1_text")} img_url={big_card_img1}/>
+        <Card className="card1" title={t("card.card1_title")} link={'/'} text={t("card.card1_text")} img_url={big_card_img1}/>
         <Card_Groups />
         </div>
         <div className="mt-5 pt-5">
