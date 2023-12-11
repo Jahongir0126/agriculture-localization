@@ -21,6 +21,7 @@ export default function Home() {
       <main>
         <Carousel />
         <div className="container pt-5 px-xxl-5 mb-5">
+          <h1 className="visually-hidden">DJI Agriculture - Drones Better Growth, Better Life</h1>
           <div>
             <h2 className="text-center mb-4 fs-1">{t("home.better")}</h2>
             <span className="green_rectangle"></span>
