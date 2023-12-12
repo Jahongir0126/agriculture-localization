@@ -17,13 +17,31 @@
   "home":{
     "better": "Better Growth, Better Life",
     "solution": "Solutions",
-    "solution_text": "DJI Agriculture not only empowers agriculture professionals with powerful equipment but also provides intelligent solutions that save time and increase workflow, benefiting a wide range of customers from farmers and growers to agricultural cooperation and service agencies."
+    "solution_text": "DJI Agriculture not only empowers agriculture professionals with powerful equipment but also provides intelligent solutions that save time and increase workflow, benefiting a wide range of customers from farmers and growers to agricultural cooperation and service agencies.",
+    "explore":"Explore",
+    "explore_card1_title":"User Stories",
+    "explore_card1_text":"Witness ordinary people exceeding their harvest goals thanks to our Agricultural solutions.",
+    "explore_card2_title":"User Cases",
+    "explore_card2_text":"Are you interested in ridding your fields of insects like Panonychus citri (McGregor) with DJI Agriculture Drones? Find out more.",
+    "explore_card3_title":"News",
+    "explore_card3_text":"DJI’s agricultural project has generated over 30,000 new jobs and is committed to strengthening the agriculture industry and benefiting farmers everywhere.",
+    "btn_more_details":"More details",
+    "support":"Support",
+    "support_title1":"Where to Buy",
+    "support_text1":"Find a reliable dealer nearby.",
+    "support_title2":"Become a Dealer",
+    "support_text2":"Read our terms and conditions.",
+    "support_title3":"After-Sales Service Policies",
+    "support_text3":"Learn about after-sales services and technical support.",
+    "contact_us":"Contact Us",
+    "contact_us_text":"If you wish to purchase products or become a dealer, please leave your contact information below. We will be in contact with you shortly.",
+    "btn_contact_us":"Contact Us"
 
   },
   "carousel": {
     "carousel1_text": "One for all",
     "carousel2_text": "See More, Work Smarter",
-    "btn": "Learn More"
+    "btn_learn_more": "Learn More"
   },
   "card": {
     "card1_title": "High-precision Plant Stand Count for Corn, Sunflower and Sugar Beet by a Drone and AI",
@@ -35,5 +53,20 @@
     "card5_text": "Our solutions provide digital, informative, intelligent, and precise field management for grain crops such as rice, wheat, and corn. This empowers agricultural operators with more convenient and efficient options, reduces operation costs, improves crop quality, and increases yield rate.",
     "card6_title": "Commercial Crops",
     "card6_text": "We also provide digital, informative, intelligent, and precise management solutions for commercial crops such as cotton, citrus trees, apple trees, and tea plants. As with grain crops, agoperators will find these options more convenient, inexpensive, and beneficial to crop quality and yield rate."
+  },
+  "footer":{
+    "footer_top_link1":"Who We Are",
+    "footer_top_link2":"Contact Us",
+    "footer_top_link3":"Careers",
+    "footer_top_link4":"Dealer Portal",
+    "footer_top_link5":"RoboMaster",
+    "footer_bottom_link1":"DJI Privacy Policy",
+    "footer_bottom_link2":"Use of Cookies",
+    "footer_bottom_link3":"Terms of Use",
+    "footer_bottom_link4":"Site Map",
+    "footer_bottom_link5":"Business Information",
+    "footer_bottom_link6":"Cookie Preferences",
+    "footer_bottom_link7":"Copyright © 2023 DJI All Rights Reserved.",
+    "footer_bottom_link8":"Feedback on web experience"
   }
 }

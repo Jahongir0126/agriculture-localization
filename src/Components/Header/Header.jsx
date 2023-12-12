@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import "./Header.scss";
 
-import logo from "/img/logo.webp";
+import logo from "/img/header_logo.svg";
 import drone1 from "/img/navbar_dron_photo_1.webp";
 import drone2 from "/img/navbar_dron_photo_2.webp";
 import mobile_phone from "/img/navbar_mobile_phone.webp";
@@ -36,13 +36,13 @@ export default function Header() {
             </button>
             <div className="collapse navbar-collapse " id="navbarNavDropdown">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 hamburger_menu">
-                <li className="nav-item fw-medium ms-3  my_dropdown ">
+                <li className="nav-item fw-medium ms-3  my_dropdown">
                   <Link
                     className="nav-link link-dark link-opacity-75-hover"
                   >{t("navbar.product")}
                   </Link>
                   <div>
-                    <ul className="row p-0">
+                    <ul className="row p-0  ">
                       <li className="dropdown-item  d-flex justify-content-between">
                         <img src={drone1} alt="drone photo" className="navbar_img" />
                         <div>

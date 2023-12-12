@@ -17,12 +17,30 @@
   "home": {
     "better": "Yaxshiroq o'sish, yaxshiroq hayot",
     "solution": "Yechimlar",
-    "solution_text": "DJI Agriculture nafaqat qishloq xo‘jaligi mutaxassislarini kuchli jihozlar bilan ta’minlabgina qolmay, balki fermerlar va fermerlardan tortib qishloq xo‘jaligi kooperatsiyasi va xizmat ko‘rsatish agentliklarigacha bo‘lgan keng doiradagi mijozlar uchun vaqtni tejaydigan va ish oqimini oshiradigan aqlli yechimlarni ham taqdim etadi."
+    "solution_text": "DJI Agriculture nafaqat qishloq xo‘jaligi mutaxassislarini kuchli jihozlar bilan ta’minlabgina qolmay, balki fermerlar va fermerlardan tortib qishloq xo‘jaligi kooperatsiyasi va xizmat ko‘rsatish agentliklarigacha bo‘lgan keng doiradagi mijozlar uchun vaqtni tejaydigan va ish oqimini oshiradigan aqlli yechimlarni ham taqdim etadi.",
+    "explore":"Tadqiq qiling",
+    "explore_card1_title":"Foydalanuvchi hikoyalari",
+    "explore_card1_text":"Qishloq xo‘jaligiga oid yechimlarimiz tufayli oddiy odamlar o‘z maqsadlaridan ortib borayotganiga guvoh bo‘ling.",
+    "explore_card2_title":"Foydalanuvchi holatlari",
+    "explore_card2_text":"Panonychus citri (McGregor) kabi dalalaringizni DJI qishloq xo'jaligi dronlari yordamida hasharotlardan tozalashga qiziqasizmi? Batafsil ma'lumot oling.",
+    "explore_card3_title":"Yangiliklar",
+    "explore_card3_text":"DJI ning qishloq xo‘jaligi loyihasi 30 000 dan ortiq yangi ish o‘rinlarini yaratdi va qishloq xo‘jaligi sanoatini mustahkamlashga va hamma joyda fermerlarga foyda keltirishga intiladi.",
+    "btn_more_details":"Batafsil",
+    "support":"Qo'llab-quvvatlash",
+    "support_title1":"Qayerdan sotib olish kerak",
+    "support_text1":"Yaqin atrofda ishonchli diler toping.",
+    "support_title2":"Dilerga aylaning",
+    "support_text2":"Bizning shartlarimizni o'qing.",
+    "support_title3":"Sotishdan keyingi xizmat ko'rsatish siyosati",
+    "support_text3":"Sotishdan keyingi xizmatlar va texnik yordam haqida bilib oling.",
+    "contact_us":"Biz bilan bog'lanish",
+    "contact_us_text":"Agar siz mahsulot sotib olishni yoki diler bo'lishni istasangiz, quyida aloqa ma'lumotlaringizni qoldiring. Tez orada siz bilan bog'lanamiz.",
+    "btn_contact_us":"Biz bilan bog'lanish"
   },
   "carousel": {
     "carousel1_text": "Hammasi uchun bitta",
     "carousel2_text": "Koʻproq koʻring, aqlliroq ishlang",
-    "btn": "Batafsil malumot"
+    "btn_learn_more": "Batafsil malumot"
   },
   "card": {
     "card1_title": "Dron va sun'iy intellekt yordamida makkajo'xori, kungaboqar va qand lavlagi ekinlarini yuqori aniqlikda hisoblash",
@@ -34,5 +52,20 @@
     "card5_text": "Bizning yechimlarimiz guruch, bug‘doy va makkajo‘xori kabi don ekinlari uchun raqamli, informatsion, aqlli va aniq dala boshqaruvini ta’minlaydi. Bu qishloq xoʻjaligi operatorlariga yanada qulay va samarali variantlarni taqdim etadi, foydalanish xarajatlarini kamaytiradi, hosil sifatini yaxshilaydi va hosildorlikni oshiradi.",
     "card6_title": "Tijorat ekinlari",
     "card6_text": "Shuningdek, biz paxta, sitrus daraxtlari, olma daraxtlari va choy o‘simliklari kabi tijorat ekinlari uchun raqamli, informatsion, aqlli va aniq boshqaruv yechimlarini taqdim etamiz. G'alla ekinlarida bo'lgani kabi, agoperatorlar bu variantlarni qulayroq, arzonroq va ekin sifati va hosildorlik darajasi uchun foydali deb topadilar."
+  },
+  "footer":{
+    "footer_top_link1":"Biz kimmiz",
+    "footer_top_link2":"Biz bilan bog'lanish",
+    "footer_top_link3":"Karyera",
+    "footer_top_link4":"Dilerlar portali",
+    "footer_top_link5":"RoboMaster",
+    "footer_bottom_link1":"DJI Maxfiylik siyosati",
+    "footer_bottom_link2":"Cookie-lardan foydalanish",
+    "footer_bottom_link3":"Foydalanish shartlari",
+    "footer_bottom_link4":"Sayt xaritasi",
+    "footer_bottom_link5":"Biznes haqida ma'lumot",
+    "footer_bottom_link6":"Cookie sozlamalari",
+    "footer_bottom_link7":"Mualliflik huquqi © 2023 DJI Barcha huquqlar himoyalangan.",
+    "footer_bottom_link8":"Veb tajribasi haqida fikr-mulohazalar"
   }
 }

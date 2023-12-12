@@ -25,7 +25,7 @@ export default function Carousel() {
             <div className="carousel-caption">
               <h5>Agras T40</h5>
               <p>{t("carousel.carousel1_text")}</p>
-              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn")}</a>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn_learn_more")}</a>
             </div>
           </div>
           <div className="carousel-item home_carousel_inner_item carousel_item2">
@@ -35,7 +35,7 @@ export default function Carousel() {
             <div className="carousel-caption">
               <h5>DJI Mavic 3M</h5>
               <p>{t("carousel.carousel2_text")}</p>
-              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn")}</a>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn_learn_more")}</a>
             </div>
           </div>
           <div className="carousel-item home_carousel_inner_item carousel_item3">
@@ -44,7 +44,7 @@ export default function Carousel() {
              className="d-block w-100 home_carousel_inner_item_img" alt="img" />
             <div className="carousel-caption">
               <h5>DJi Smartfarm Web</h5>
-              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn")}</a>
+              <a href="#" className="btn text-white btn-outline-light rounded-5">{t("carousel.btn_learn_more")}</a>
             </div>
           </div>
         </div>

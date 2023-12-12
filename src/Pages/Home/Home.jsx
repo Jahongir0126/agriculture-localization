@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      {/* <main>
+      <main>
         <Carousel />
         <section className="container pt-5 px-xxl-5 pb-5">
           <h1 className="visually-hidden">DJI Agriculture - Drones Better Growth, Better Life</h1>
@@ -41,28 +41,28 @@ export default function Home() {
         </section>
         <section className="bg-light mt-5">
           <div className="mx-auto py-5 container px-5">
-            <h2 className="text-center mb-5 fs-1">Explore</h2>
+            <h2 className="text-center mb-5 fs-1">{t("home.explore")}</h2>
             <Card_Groups />
           </div>
         </section>
 
         <section className="container pt-5 px-xxl-5 mb-5">
-          <h2 className="text-center my-5 fs-1">Support</h2>
+          <h2 className="text-center my-5 fs-1">{t("home.support")}</h2>
           <ul className="row list-unstyled text-center mx-auto mb-5 pb-5">
             <li className="col-md-6 col-lg-4 support_item my-4">
               <img src={support_buy} alt="cuy_icon" />
-              <h3 className="fs-4 my-3">Where to Buy </h3>
-              <a href="https://www.dji.com/where-to-buy/agriculture-dealers" className="nav-link">Find a reliable dealer nearby.</a>
+              <h3 className="fs-4 my-3">{t("home.support_title1")}</h3>
+              <a href="https://www.dji.com/where-to-buy/agriculture-dealers" className="nav-link">{t("home.support_text1")}</a>
             </li>
             <li className="col-md-6 col-lg-4  support_item my-4">
               <img src={support_dealer} alt="dealer_icon" />
-              <h3 className="fs-4 my-3">Become a Dealer </h3>
-              <a href="https://prm.dji.com/" className="nav-link">Read our terms and conditions.</a>
+              <h3 className="fs-4 my-3">{t("home.support_title2")}</h3>
+              <a href="https://prm.dji.com/" className="nav-link">{t("home.support_text2")}</a>
             </li>
             <li className="col-md-6 col-lg-4  support_item my-4">
               <img src={support_service} alt="service" />
-              <h3 className="fs-4 my-3">After-Sales Service Policies </h3>
-              <a href="https://www.dji.com/support" className="nav-link">Learn about after-sales services and technical support.</a>
+              <h3 className="fs-4 my-3">{t("home.support_title3")}</h3>
+              <a href="https://www.dji.com/support" className="nav-link">{t("home.support_text3")}</a>
             </li>
           </ul>
         </section>
@@ -70,13 +70,13 @@ export default function Home() {
 
         <section className="bg-light mt-5 py-5">
           <div className="container mx-auto py-5  px-5  text-center">
-            <h2 className=" mb-4 fs-1">Contact Us</h2>
+            <h2 className=" mb-4 fs-1">{t("home.contact_us")}</h2>
             <span className="green_rectangle mb-3"></span>
-            <p className="solution_text mb-4">If you wish to purchase products or become a dealer, please leave your contact information below. We will be in contact with you shortly.</p>
-            <a href="https://ag.dji.com/contact-us" className="btn btn-secondary rounded-5 m-auto px-5 contact_us_btn">Contact Us</a>
+            <p className="solution_text mb-4">{t("home.contact_us_text")}</p>
+            <a href="https://ag.dji.com/contact-us" className="btn btn-secondary rounded-5 m-auto px-5 contact_us_btn">{t("home.btn_contact_us")}</a>
           </div>
         </section>
-      </main> */}
+      </main>
       <Footer />
     </>
   )
