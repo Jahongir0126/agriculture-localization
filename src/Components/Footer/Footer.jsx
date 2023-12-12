@@ -1,46 +1,45 @@
 import { Link } from 'react-router-dom'
 
 import logo from "/img/footer_logo.svg"
+import youtube from "/img/icon-youtube.webp"
+import twitter from "/img/icon-twitter.webp"
+import facebook from "/img/icon-facebook.webp"
 import './Footer.scss'
 
 export default function Footer() {
   return (
     <>
-      <footer className=' py-4  border-top bg-dark text-white'>
+      <footer className=' py-4 text-white'>
 
-        <div className="container d-flex justify-content-between px-lg-5 ">
-          <div>
-            <Link to="/" className="navbar-brand navbar_brand fw-light ">
-              <svg width="42" height="24" viewBox="0 0 42 24" xmlns="http://www.w3.org/2000/svg"><path d="M32.5484163 4.8813551c-.7034221 2.6137997-1.4036831 5.2283432-2.0896266 7.8467915-.3430647 1.3090383-.6798073 2.6190062-1.0747501 3.9142846-.3836003 1.2584617-.8547797 2.6017134-1.5414669 3.7447046-.7162521 1.1928239-1.6437355 2.124212-2.9272995 2.720531-.5132025.2381929-1.0390491.4016367-1.5907417.5185948-.7828198.1658611-1.5691724.2341021-2.3646362.2791003-1.9698794.111008-6.1487607.094459-8.1180823.094459l1.2073274-4.4745306c.9139095 0 1.8276331.0031611 2.7413566-.0221272.8817414-.0245444 1.8519916-.0717739 2.720345-.2770549.9509122-.224991 1.6684659-.6110085 2.296953-1.384717.5725183-.7047237.9574201-1.5840478 1.2727794-2.4133533.5760511-1.5145051 1.1658621-3.6829715 1.5816305-5.2424748.4702497-1.7653422.9222769-3.535147 1.3778371-5.304208zm8.1355423-.0000372l-3.51209 13.0169346h-6.5081884l3.5119041-13.0169346h6.5083743zM19.2211801 0h6.5083744c-.6818527 2.5409101-1.3627757 5.0820061-2.052438 7.6208709-.4806625 1.768689-.957978 3.538122-1.4797339 5.2954686-.2275941.7660848-.4548164 1.5299384-.7530688 2.2737101-.2396805.5974346-.5076242 1.1290455-1.0029762 1.5754944-.3700264.3333957-.7735225.540722-1.2434003.6885467-.6045005.1902196-1.2155089.2599482-1.8400912.3110825-.8982903.0736334-1.7967665.0924136-2.6965444.1069172-2.0693588.0332838-5.8272653.0286352-7.8966242.0197099-.7435858-.0033469-1.4871715-.0078096-2.2307573-.0213834-.5390485-.009669-1.0775392-.0230569-1.615844-.0567126-.3594277-.022685-.7160662-.0528078-1.0712172-.1182597-.240982-.0442544-.4730388-.1037562-.6991454-.2024919-.7447014-.3254001-1.124211-.9758284-1.1463382-1.7679453-.01283-.4533289.0660098-.8850883.15675-1.3235418.1288584-.6210493.2893271-1.2335453.4483083-1.8467851.3034589-1.1716264.8588704-3.3333989 1.2917455-4.4713696.33916-.8917823.7870964-1.7792878 1.6381572-2.3438106.475828-.3155451.9758285-.4832656 1.5271493-.5942736.4087025-.0821867.8194505-.1256974 1.2339172-.156564.694125-.0515061 1.3888078-.0676831 2.0842343-.0799554.9882867-.0172927 1.9765733-.0210115 2.96486-.0239866l2.465301-.003347h2.4651616l-.8780225 3.2541872c-1.4652302 0-2.9300886-.0040908-4.3953189.0044626-.4276687.0026032-.8547796-.0005578-1.2820764.0273336-.1517295.009855-.299926.01971-.446635.0710302-.1930087.0669395-.2883975.1881743-.3731874.3622169-.124024.2547418-.195612.5234293-.2746377.7923028-.120677.410562-.2324287.8235412-.3443663 1.2367064-.1723691.6364826-.3447382 1.2729652-.508368 1.9118651-.0604314.2365194-.1197472.4730389-.1706956.7117896-.035887.1673486-.068241.3341394-.0842321.504835-.0174787.1866867-.022871.4109339.0901823.5842327.1149127.175902.309223.2168094.4905174.2430274.2049091.0299368.4101901.0364448.6162149.0425809.3373004.0102269.674601.0117144 1.0119014.0133879.9228347.0044626 1.8456695.0046486 2.7685042-.0011156.4252515-.0026032.8501311-.0055783 1.2750107-.0226851.2926741-.0117144.5816295-.0217553.869841-.0914839.2190408-.0529937.3902942-.1362962.5384907-.3153592.1002232-.1212348.1656752-.2556715.2255488-.3984757.1487543-.3540353.2526964-.7205288.3611011-1.0868364.4159544-1.4051707.7906294-2.821126 1.1734859-4.235408l1.1434095-4.2441473L19.2211801 0h6.5083744z" fill="#FFF" fillRule="evenodd"/></svg> 
-            </Link>
-
+        <div className="container px-xxl-5">
+          <div className='d-md-flex  footer_top mt-5  align-items-baseline'><Link to="/" className="navbar-brand navbar_brand fw-light "><img src={logo} alt="footer_logo" className='my-3' /></Link>
+            <ul className='list-unstyled d-flex align-items-center flex-wrap links_list ms-sm-0 ms-md-4'>
+              <li><Link to={"https://ag.dji.com/about-us?site=ag&from=footer"} target='_blank' className='nav-link '>Who We Are</Link></li>
+              <li><Link to={"https://ag.dji.com/contact-us?site=ag&from=footer"} target='_blank' className='nav-link ms-4'>Contact Us</Link></li>
+              <li><Link to={"https://we.dji.com/index_en.html?site=ag&from=footer"} target='_blank' className='nav-link ms-4'>Careers</Link></li>
+              <li><Link to={"https://prm.dji.com/?site=ag&from=footer"} target='_blank' className='nav-link ms-4'>Dealer Portal</Link></li>
+              <li><Link to={"https://www.robomaster.com/?site=ag&from=footer"} target='_blank' className='nav-link ms-4'>RoboMaster</Link></li>
+            </ul>
+            <ul className="list-unstyled d-flex ms-auto icons_list ">
+              <li><Link to={"https://facebook.com"} target='_blank' className="nav-link" href="#"><img src={facebook} alt="icon " /></Link></li>
+              <li className="ms-3"><Link to={"https://twitter.com"} target='_blank' className="nav-link" href="#"><img src={twitter} alt="icon" /></Link></li>
+              <li className="ms-3"><Link to={"https://youtube.com"} target='_blank' className="nav-link" href="#"><img src={youtube} alt="icon" /></Link></li>
+            </ul>
           </div>
-
-          <div className='d-flex justify-content-around w-75 ps-5'>
-            <div>
-              <h4 className='mb-3 '>Помошь</h4>
-              <Link to={"/"} className='nav-link  mt-1'>Оплата</Link>
-              <Link to={"/"} className='nav-link  mt-1'>Доставка</Link>
-              <Link to={"/"} className='nav-link  mt-1'>Возврат и обмен</Link>
-            </div>
-
-            <div>
-              <h4 className='mb-3 '>Компания</h4>
-              <Link to={"/"} className='nav-link  mt-1'>О нас</Link>
-              <Link to={"/"} className='nav-link  mt-1'>Контакты</Link>
-              <Link to={"/"} className='nav-link  mt-1'>Наши магазины</Link>
-            </div>
-
-            <div>
-              <h4 className='mb-3 '>Следите за нами</h4>
-              <a href="https://vk.com" target='_blank' className='nav-link  mt-1 '>VK</a>
-              <a href="https://pinterest.com" target='_blank' className='nav-link  mt-1'>Pinterest</a>
-              <a href="https://t.me/Jahongir0126" target='_blank' className='nav-link  mt-1'>Telegram</a>
-              <a href="https://instagram.com" target='_blank' className='nav-link  mt-1'>Instagram</a>
-
+          <div className="flex-sm-row justify-content-between mt-3 footer_bottom">
+            <ul className='list-unstyled d-sm-flex'>
+              <li><Link to={"https://www.dji.com/policy?site=ag&from=footer"} target='_blank' className='nav-link ms-3'>DJI Privacy Policy</Link></li>
+              <li><Link to={"https://www.dji.com/policy?site=ag&from=footer#cookie"} target='_blank' className='nav-link ms-3'>Use of Cookies</Link></li>
+              <li><Link to={"https://www.dji.com/terms?site=ag&from=footer"} target='_blank' className='nav-link ms-3'>Terms of Use</Link></li>
+              <li><Link to={"https://www.dji.com/sitemap?site=ag&from=footer"} target='_blank' className='nav-link ms-3'>Site Map</Link></li>
+              <li><Link to={"https://www.dji.com/policy?site=ag&from=footer#7"} target='_blank' className='nav-link ms-3'>Business Information</Link></li>
+              <li><Link to={"https://ag.dji.com/"} target='_blank' className='nav-link ms-3'>Cookie Preferences</Link></li>
+            </ul>
+            <div className='d-md-flex ms-3'>
+              <p>Copyright © 2023 DJI All Rights Reserved.</p>
+              <Link className='nav-link ms-md-4' to={"https://www.dji.com/feedback"} target='_blank'>Feedback on web experience</Link>
             </div>
           </div>
-
         </div>
       </footer>
 
