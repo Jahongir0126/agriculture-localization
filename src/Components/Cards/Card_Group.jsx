@@ -1,10 +1,9 @@
 import React from 'react'
-
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import card_img1 from '/img/card_img1.webp'
 import card_img2 from '/img/card_img2.webp'
 import card_img3 from '/img/card_img3.webp'
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 
 export default function Card_Groups() {
     const { t, i18n } = useTranslation();

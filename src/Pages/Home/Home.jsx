@@ -14,6 +14,7 @@ import big_card_img3 from '/img/big_card_img3.webp'
 import support_buy from '/img/support_buy_img.svg'
 import support_dealer from '/img/support_dealer.svg'
 import support_service from '/img/support_service.svg'
+import Explore_Card_Group from "../../Components/Cards/Explore_Card_Group"
 
 export default function Home() {
 
@@ -42,7 +43,7 @@ export default function Home() {
         <section className="bg-light mt-5">
           <div className="mx-auto py-5 container px-5">
             <h2 className="text-center mb-5 fs-1">{t("home.explore")}</h2>
-            <Card_Groups />
+            <Explore_Card_Group/>
           </div>
         </section>
 
