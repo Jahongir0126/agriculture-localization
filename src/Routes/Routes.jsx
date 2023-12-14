@@ -8,9 +8,6 @@ export default function RoutesWrapper() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path="/clothes/:page?" element={<Clothes />} /> */}
-      {/* <Route path="/clothes/byCategory/:category_id" element={<Clothes />} /> */}
-      {/* <Route path="/product/:product_id" element={<Product />} /> */}
       <Route path="*" element={<NotFound />} />
 
 
